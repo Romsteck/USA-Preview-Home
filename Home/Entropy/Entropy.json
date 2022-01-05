@@ -1,75 +1,17 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 12,
-    "Container1": 4,
-    "Gallery1": 9,
-    "galleryTemplate1": 10,
-    "HOME": 3,
-    "HtmlText1_23": 8,
-    "HtmlText1_24": 11,
-    "Icon1": 13,
-    "Icon2": 6,
-    "Label1": 5,
-    "Label1_1": 7
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2022 07:31:49",
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "85814": "0003.jpg"
-  },
-  "LocalResourceRootPaths": {
-    "85814": "https://docserverpwaprodwcus.blob.core.windows.net/2c6890c0-04c3-49e9-beb6-6d00b551bbd7-1/resource/Assets0Images00003.jpg?sv=2017-04-17&sr=b&sig=u15th9l%2F1YAWHwqfcp0wytgWOetvWgUdZOnZK820M60%3D&spr=https&se=2022-01-06T07%3A46%3A08Z&sp=r"
-  },
-  "OldLogoFileName": "jz1qx1cd.jpg",
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "CustomGallerySample": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 5,
-    "gallery": 4,
-    "groupContainer": 0,
-    "htmlViewer": 3,
-    "icon": 2,
-    "label": 1
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 8,
-    "Container1": 0,
-    "Gallery1": 5,
-    "galleryTemplate1": 6,
-    "HOME": 0,
-    "HtmlText1_23": 4,
-    "HtmlText1_24": 7,
-    "Icon1": 9,
-    "Icon2": 2,
-    "Label1": 1,
-    "Label1_1": 3
-  },
-  "ResourcesJsonIndices": {
-    "Image-85814": 0
-  },
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.135482,
-    "ControlCount": {
-      "button": 1,
-      "gallery": 1,
-      "galleryTemplate": 1,
-      "groupContainer": 1,
-      "htmlViewer": 2,
-      "icon": 2,
-      "label": 2,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 0.7373515,
-    "ErrorCount": 0
-  }
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {}
 }
