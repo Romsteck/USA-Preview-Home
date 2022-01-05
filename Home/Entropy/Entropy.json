@@ -1,17 +1,75 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 12,
+    "Container1": 4,
+    "Gallery1": 9,
+    "galleryTemplate1": 10,
+    "HOME": 3,
+    "HtmlText1_23": 8,
+    "HtmlText1_24": 11,
+    "Icon1": 13,
+    "Icon2": 6,
+    "Label1": 5,
+    "Label1_1": 7
+  },
   "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/05/2022 07:51:38",
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "85814": "0001.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "85814": "https://docserverpwaprodwcus.blob.core.windows.net/d39b04a1-17ae-412e-ba9b-52d2b91f7e61-1/resource/Assets0Images00001.jpg?sv=2017-04-17&sr=b&sig=GneAhc0bXNHODRUb2Oi3V7OOEc%2BKdwV8QGUmtzXjwqQ%3D&spr=https&se=2022-01-06T07%3A47%3A09Z&sp=r"
+  },
+  "OldLogoFileName": "logo.jpg",
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
-  "TemplateVersions": {}
+  "OrderXMLTemplate": {
+    "button": 5,
+    "gallery": 4,
+    "groupContainer": 0,
+    "htmlViewer": 3,
+    "icon": 2,
+    "label": 1
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 11,
+    "Container1": 3,
+    "Gallery1": 5,
+    "galleryTemplate1": 9,
+    "HOME": 2,
+    "HtmlText1_23": 4,
+    "HtmlText1_24": 10,
+    "Icon1": 12,
+    "Icon2": 7,
+    "Label1": 6,
+    "Label1_1": 8
+  },
+  "ResourcesJsonIndices": {
+    "Image-85814": 0
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0580674,
+    "ControlCount": {
+      "button": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "groupContainer": 1,
+      "htmlViewer": 2,
+      "icon": 2,
+      "label": 2,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.3432206,
+    "ErrorCount": 0
+  }
 }
