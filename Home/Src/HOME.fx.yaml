@@ -1,0 +1,143 @@
+HOME As screen:
+    BackgroundImage: ='85814'
+    Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    Gallery1 As gallery.galleryHorizontal:
+        Height: =180
+        Items: |-
+            =Table(
+                {Name:"My Projects",        Icon:Icon.Folder,   Launch:"/providers/Microsoft.PowerApps/apps/c3c35a65-af05-4fe3-8185-37de5f170259"},
+                {Name:"Expense Reports",    Icon:Icon.Money,    Launch:"/providers/Microsoft.PowerApps/apps/d9747dd7-5733-4b9b-8362-2685b433f9c8"},
+                {Name:"Parking",            Icon:Icon.Cars,    Launch:"/providers/Microsoft.PowerApps/apps/d9747dd7-5733-4b9b-8362-2685b433f9c8"},
+                {Name:"Home",               Icon:Icon.Database, Launch:"/providers/Microsoft.PowerApps/apps/e4074a39-011b-ec11-b6e6-002248133c2b"}
+            )
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =180
+        Width: =CountRows(Self.AllItems) * Self.TemplateWidth
+        X: =(Parent.Width - Self.Width) / 2
+        Y: =(Parent.Height - Self.Height) / 2
+        ZIndex: =1
+
+        HtmlText1_24 As htmlViewer:
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =180
+            HtmlText: |-
+                =Concatenate(
+                    "<div style='background-color:",
+                    "rgba(40,80,100,0.8);",
+                    "box-shadow: 0px 0px 15px 5px rgba(20,20,20,0.8);",
+                    " margin-top: 30px;",
+                    " margin-left: 30px;",
+                    " width:" & 120 &"px;",
+                    " height:" & 120 &"px;",
+                    " border-radius:",
+                    " 100px'></div>"
+                )
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Width: =180
+            ZIndex: =1
+
+        Button1 As button:
+            BorderColor: =ColorFade(Self.Fill, 45%)
+            Fill: =RGBA(0, 0, 0, 0)
+            Font: =Font.Lato
+            FontWeight: =Normal
+            Height: =120
+            HoverBorderColor: =DodgerBlue
+            HoverFill: =
+            OnSelect: =Launch(ThisItem.Launch, "hidenavbar", "true")
+            PaddingBottom: =0
+            PaddingTop: =60
+            PressedFill: =
+            RadiusBottomLeft: =100
+            RadiusBottomRight: =100
+            RadiusTopLeft: =100
+            RadiusTopRight: =100
+            Size: =12
+            Text: =ThisItem.Name
+            VerticalAlign: =VerticalAlign.Top
+            Width: =120
+            X: =30
+            Y: =30
+            ZIndex: =2
+
+        Icon1 As icon.Folder:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =25
+            Icon: =ThisItem.Icon
+            OnSelect: =Select(Parent)
+            Width: =180
+            Y: =55
+            ZIndex: =3
+
+    Container1 As groupContainer:
+        Fill: =RGBA(0, 0, 0, 0.49)
+        Height: =101
+        Width: =Parent.Width
+        ZIndex: =2
+
+        Label1 As label:
+            Color: =DodgerBlue
+            Font: =Font.Lato
+            Height: =101
+            PaddingLeft: =70
+            Size: =14
+            Text: ="SWITZERLAND HOME"
+            Width: =575
+            ZIndex: =1
+
+        Icon2 As icon.Home:
+            Color: =DodgerBlue
+            Height: =101
+            Icon: =Icon.Home
+            PaddingBottom: =30
+            PaddingLeft: =25
+            PaddingRight: =10
+            PaddingTop: =20
+            ZIndex: =2
+
+        Label1_1 As label:
+            Align: =Align.Right
+            Color: =DodgerBlue
+            Font: =Font.Lato
+            Height: =101
+            PaddingLeft: =0
+            PaddingRight: =25
+            Size: =14
+            Text: =Upper(Text(Today(), DateTimeFormat.LongDate))
+            Width: =575
+            X: =Parent.Width - Self.Width
+            ZIndex: =3
+
+    HtmlText1_23 As htmlViewer:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.Lato
+        Height: =70
+        HtmlText: |-
+            =Concatenate(
+                "<div style='background-color:",
+                "rgba(40,40,40);",
+                "box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.8);",
+                " margin-top: 0px;",
+                " margin-left: 0px;",
+                " width:" &  Parent.Width &"px;",
+                " height:" & 0 &"px;",
+                " border-radius:",
+                " 10px; border:0px solid  rgba(100,100,100)'></div>"
+            )
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =8
+        Width: =Parent.Width
+        Y: =101
+        ZIndex: =3
+
