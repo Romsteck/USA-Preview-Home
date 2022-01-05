@@ -90,6 +90,7 @@ HOME As screen:
             Size: =14
             Text: ="SWITZERLAND HOME"
             Width: =575
+            X: =96
             ZIndex: =1
 
         Icon2 As icon.Home:
